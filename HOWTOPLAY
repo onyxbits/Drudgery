@@ -1,0 +1,23 @@
+Drudge Quest is a simple memory game where the objective of the game is to
+avoid running into your boss while walking down the long and confusing 
+'Escher Hallway' of your company's office building.
+
+How to play
+-----------
+Your real time workday is divided up into rounds of five minutes each. Every
+round, you must hide from your boss in one of the rooms flanking the
+hallway.
+Your boss is a dreadful person, who loves to ambush you in order to give 
+tedious tasks. Whenever you sneak into a room, your boss will choose 
+to wait for you in the next room on the same side in the next round. So, in
+order to avoid 'boss encounters', you have to switch sides every turn.
+
+To switch sides, simply touch the widget, but be aware, the 'Escher Hallway'
+is named like this for a reason. When stepping back into the hallway, there
+is no telling if you have been in a left- or a rightside room. You simply
+have to memorize this.
+
+Every round you earn experience points. You gain one point for running into
+your boss, three points for not running in your boss and four points on
+every fifth round you manage to avoiding 'boss encounters'.
+

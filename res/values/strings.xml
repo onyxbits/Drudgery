@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Drudgery</string>
+	<string name="action_settings">Settings</string>
+	<string name="btn_workinghours">Set working time</string>
+	<string name="btn_earnings">Set wages</string>
+	<string name="btn_breaklength">Set break length</string>
+	<string name="lbl_summary">Work starts at %1$tR and goes on for %2$1s, %3$1s.\nI earn %4$1s per hour.\nMy break is %5$1s long.</string>
+	<string name="btn_startofwork">Set starting time</string>
+	<string name="title_set_working_time">Set working time</string>
+	<string name="title_main_activity">Drudgery Widget Settings</string>
+	<string name="title_set_hourly_earnings">Set hourly earnings</string>
+	<string name="title_set_break_length">Set break length</string>
+	<string name="apprater_title">Rate this app?</string>
+	<string name="apprater_message">Hi,\nseems like you find this app useful. Would you consider rating it? This will only take a minute of your time, but encourages further development.</string>
+	<string name="apprater_positive">Sure!</string>
+	<string name="apprater_negative">No thanks</string>
+	<string name="apprater_neutral">Later</string>
+	<string name="lbl_moneyearned">%1$s</string>
+	<string name="lbl_timeleft">%1$s</string>
+	<string name="dashclock_description">Dull job? Drudgery tells you how much time left and how much you earned today</string>
+	<string name="dashclock_title">Drudgery</string>
+	<string name="dashclock_title_work">%1$s | %2$s | #%3$d</string>
+	<string name="title_free_time">Free Time!</string>
+	<string name="title_activity_blank">BlankActivity</string>
+	<string name="left">left (\u2190)</string>
+	<string name="right">right (\u2192)</string>
+	<string name="closingtimemessage">On your last quest, You earned %1$d experience points. Your highscore is %2$d experience points. You were granted the title \'%3$s\'.</string>
+	<string name="questmessage">%1$s\n\nYou will go %2$s next. So far, you evaded trouble %3$s in a row, ran into your boss %4$s, and earned a total of %5$d exp.</string>
+	<string name="lbl_quest_title">Room #%1$d</string>
+	<string name="mi_about_dq">About Drudge Quest</string>
+	<string name="mi_start_break">Start break</string>
+	<string name="msg_back_to_work">Time to get back to work</string>
+	<string name="msg_no_alarmclock">No alarmclock app available</string>
+	<string name="game_description"><![CDATA[Drudge Quest is a simple memory game where the objective of the game is to avoid running into your boss while walking down the long and confusing \'Escher Hallway\' of your company\'s office building.<p></p>Your real time workday is divided up into rounds of five minutes each. Every round, you must hide from your boss in one of the rooms flanking the hallway.<br></br>Your boss is a dreadful person, who loves to ambush you in order to give tedious tasks. Whenever you sneak into a room, your boss will choose to wait for you in the next room on the same side in the next round. So, in order to avoid \'boss encounters\', you must switch sides every turn.<p></p>To switch sides, simply touch the widget, but be aware, the \'Escher Hallway\' is named like this for a reason. When stepping back into the hallway, there is no telling if you have been in a left- or a rightside room. You simply have to memorize this.<p></p>Every round you earn experience points. You gain one point for running into your boss, three points for not running in your boss and four points on every fifth round you manage to avoid a \'boss encounters\'.]]></string>
+
+	<plurals name="times">
+		<item quantity="one">1 time</item>
+		<item quantity="other">%d times</item>
+	</plurals>
+	<plurals name="hours">
+		<item quantity="one">1 hour</item>
+		<item quantity="other">%d hours</item>
+	</plurals>
+	<plurals name="minutes">
+		<item quantity="one">1 minute</item>
+		<item quantity="other">%d minutes</item>
+	</plurals>
+
+	<!--
+    Note to translators: events and titles don't require a literal translation, be creative! There is
+	also no need to have the same number of items in each language. The only thing that is kinda 
+	important is to follow the overall theme:
+	* Titles should always sound but not be important.
+	* Normalevents happen when the player walks into a non-bonus, non-boss room. The player should be
+	  a passive observer here, catching details that would only stand out to a very bored person.
+	* Setbackevents happen when the player walks into the boss. The player should be a passive element
+	  that is subject to the bosses whims. The boss is not nescessarily evil or hostile towards the
+	  player, but always takes actions (intentionally or misguided) that are socially awkward, demeaning,
+	  or otherwise unpleasant to the player (in a funny way!).
+	* Bonusevents happen when the player avoids bossevents long enough. Here the player is an active
+	  element, who accomplishes a minor (but ultimatively insignificant) sense of achievement.
+	In general guidelines:
+	* Try to be gender neutral. Don't make the boss male or female if it can be avoided.
+	* Don't impose a gender on the player either.
+	* Events should be short, there is not a lot of space on the UI.
+	* Events should leave room for imagination.
+	* Don't be blunt. Subtle pop culture references are good, a teaparty with Cpt. Kirk is not.
+	-->
+	<string-array name="titles">
+		<item>Master of the coffeepot</item>
+		<item>Guardian of the watercooler</item>
+		<item>Defender of the coffepot</item>
+		<item>Seeker of the letteropener</item>
+		<item>Senior Coffeebreak Officer</item>
+		<item>Chief letteropener</item>
+		<item>Keeper of archives</item>
+		<item>Junior Lunchbreak Assistant</item>
+		<item>Office Mascot</item>
+		<item>Underling of the Overlord</item>
+		<item>Assistant\'s assistant</item>
+		<item>Employee of the day</item>
+		<item>Coffepot inspector</item>
+		<item>Head dishwasher</item>
+		<item>Office grunt</item>
+	</string-array>
+	<string-array name="bonusevents">
+		<item>You find some loose change!</item>
+		<item>You loot the fridge.</item>
+		<item>You found the stepladder!</item>
+		<item>You claim this room in the name of Bob, the janitor.</item>
+		<item>You take a coffeebreak.</item>
+		<item>You pocket some office supplies.</item>
+		<item>You snatch the last \'application for leave\' form.</item>
+		<item>You have reached a save point.</item>
+		<item>You win a game of tic-tac-toe against Joshua.</item>
+		<item>You find the amulet of Yendor!</item>
+		<item>You open a window and take a deep breath.</item>
+		<item>You eat an apple from the forbidden fruit bowl.</item>
+		<item>You smash a barrel. It contained some money.</item>
+		<item>You eat a mushroom shaped muffin&#8230; 1 UP!</item>
+		<item>You take a powernap.</item>
+		<item>You cheer up Marvin the robot.</item>
+		<item>You pull the pen of power from a cup of pencils!</item>
+		<item>You free a coworker who is chained to his desk.</item>
+		<item>You squash a fly&#8230; level up!</item>
+	</string-array>
+	<string-array name="setbackevents">
+		<item>Your boss challenges you to a boss fight!</item>
+		<item>Your boss tells you to come on sunday.</item>
+		<item>Your boss tells you that you are late.</item>
+		<item>Your boss asks you to sign an NDA&#8230; with your blood!</item>
+		<item>Your boss cancels your day-off.</item>
+		<item>Your boss makes a point.</item>
+		<item>Your boss is on day three of a beans and cabbage diet.</item>
+		<item>Your boss gives you paperclips to sort by color.</item>
+		<item>Your boss hands you a written warning.</item>
+		<item>Your boss hands you a perforator for punching out the confetti for the next office party.</item>
+		<item>Your boss practises voodoo&#8230; on you!</item>
+		<item>Your boss takes your lunchmoney.</item>
+		<item>Your boss serves you haggis.</item>
+		<item>Your boss serves you self-made cookies.</item>
+		<item>Your boss makes you watch holiday snaps.</item>
+		<item>Your boss requests your presence at the next office meeting.</item>
+		<item>Your boss signs you up for the policeball.</item>
+		<item>Your boss asks you to work overtime.</item>
+		<item>Your boss reads you Vogon poetry.</item>
+		<item>Your boss puts an apple on your head.</item>
+		<item>Your boss beats you at rock-scissors-paper.</item>
+		<item>Your boss makes you sit through a presentation.</item>
+		<item>Your boss explains string theory to you.</item>
+		<item>Your boss teaches you to speak proper.</item>
+		<item>Your boss has you count to infinity. You give up half way.</item>
+		<item>Your boss gives you a dancing lesson.</item>
+		<item>Your boss sends you on a business trip to antartica.</item>
+		<item>Your boss asks your help for delivering a baby.</item>
+		<item>Your boss prepares for the zombie apocalypse.</item>
+		<item>Your boss gives you a performance review.</item>
+		<item>Your boss makes you a ham and avocado cheese sandwich.</item>
+		<item>Your boss makes you eat your spinach.</item>
+		<item>Your boss makes you memorize the yellow pages.</item>
+		<item>Your boss orders a full body cavity search on you.</item>
+		<item>Your boss decides that you are in need of a new haircut.</item>
+		<item>Your boss makes you watch the paint dry.</item>
+		<item>Your boss gives you the evil eye.</item>
+		<item>Your boss yells at you.</item>
+		<item>Your boss stares at you.</item>
+		<item>Your boss has a new pet aligator.</item>
+		<item>Your boss asks you for the quarterly report. Your dog ate it.</item>
+		<item>Your boss uses \'Yell\' on you&#8230; It\'s super effective!</item>
+		<item>Your boss tells you a joke. You have trouble staying awake.</item>
+		<item>Your boss drinks the last cup of coffee, then orders you to brew more.</item>
+	</string-array>
+	<string-array name="normalevents">
+		<item>The parking lot can be seen through the window.</item>
+		<item>Someone forgot to flush the toilet.</item>
+		<item>Someone opened a portal to Dimension X, again!</item>
+		<item>A piranha swims in the watercooler.</item>
+		<item>Low moaning comes out of the closet.</item>
+		<item>Someone forgot their lunchbox here&#8230; three months ago!</item>
+		<item>A lunchbox sits in a beartrap.</item>
+		<item>A yellow brick road ends at the door.</item>
+		<item>The bottle on the table is labeled \'Drink me\'.</item>
+		<item>Someone watered the carpet.</item>
+		<item>The stars are right&#8230; but the time is wrong.</item>
+		<item>A co-worker is silently reciting eldritch incantations here.</item>
+		<item>A co-worker is taking a nap in the closet.</item>
+		<item>A huge pile of dirty cups and dishes sits in the sink.</item>
+		<item>A ladder leads down through an open hatch.</item>
+		<item>The telephone rings.</item>
+		<item>The telephone is silent.</item>
+		<item>The fax machine is out of paper.</item>
+		<item>The walls look organic.</item>
+		<item>A file labeled \'My nude pics\' lies on the desk.</item>
+		<item>The sink\'s faucet is dripping cheerfully.</item>
+		<item>It is raining outside.</item>
+		<item>The lightswitch is broken.</item>
+		<item>The doorknob broke off.</item>
+		<item>A coffin stands in the corner.</item>
+		<item>A thick layer of dust covers everything.</item>
+		<item>A sarcophagus stands in the corner.</item>
+		<item>The wallclock eternally shows tea-time.</item>
+		<item>The window is broken.</item>
+		<item>The windows are dirty.</item>
+		<item>The windows are clean.</item>
+		<item>The window shutters are broken.</item>
+		<item>The lights flicker.</item>
+		<item>The walls look boring (but aren\'t)</item>
+		<item>A co-worker is reading the yellow pages.</item>
+		<item>The room contains a perfect replica of itself, containing a perfect&#8230;</item>
+		<item>This room is equipped with gigabit ethernet.</item>
+		<item>This room is ISO 9001 certified.</item>
+		<item>There is a skeleton in the closet.</item>
+		<item>The room looks big enough to contain the entire building.</item>
+		<item>The writing desk here is like a raven.</item>
+		<item>An office for two, but no one is here.</item>
+		<item>Cat pictures line the wall.</item>
+		<item>The heater is broken.</item>
+		<item>A coworker kills time by counting the turns of the ceiling fan.</item>
+		<item>It is dark in here.</item>
+		<item>It is hot in here.</item>
+		<item>It is cold in here.</item>
+		<item>It is wet in here.</item>
+		<item>It is foggy in here.</item>
+		<item>On the shelf, there sits a book that has \'Don\'t Panic\' written on it\'s cover.</item>
+		<item>The air smells of fear.</item>
+		<item>The air smells of sulfur.</item>
+		<item>The air smells of flowers.</item>
+		<item>Potted plants stand everywhere!</item>
+		<item>The walls are covered in hieroglyphs.</item>
+		<item>99 bottles of beer on the wall.</item>
+		<item>An X marks the spot.</item>
+		<item>A big red button reads \'do not press\'.</item>
+		<item>Someone is faxing the 1 million version of the \'99 bottles of beer on the wall\' song.</item>
+		<item>A very busy, very noise cube farm.</item>
+		<item>There is a photocopier here.</item>
+		<item>It\'s either a broom closet or a parking lot for witches.</item>
+		<item>A subatomic particle briefly pops into existence, but nobody seems to notice.</item>
+		<item>A subatomic particle briefly pops into existence, but nobody seems to care.</item>
+		<item>An ex-parrot is lying in it\'s cage here.</item>
+		<item>A yellow tape, labeled \'POLICELINE DO NOT CROSS\' blocks off half of the room.</item>
+		<item>A claustrophobic coworker has locked herself up in the closet here.</item>
+		<item>The ghost of a long dead accountant haunts this office.</item>
+		<item>A red and a blue pill lie on the desk.</item>
+		<item>A painting on the wall shows the old image of a young coworker.</item>
+		<item>The room is filled with gold dubloons, but on closer inspection, they all turn out to be worthless error coins.</item>
+		<item>Did they use bacon as wallpaper in here?</item>
+		<item>The walls are painted green with red dots, but some coworkers claim they are all gray.</item>
+		<item>This room could use a sacrifical altar.</item>
+		<item>The coffemachine here has been re-engineered to no longer require any liquids.</item>
+		<item>The floor is wet but there is no warning sign.</item>
+		<item>This room has the most marvelous view, but the curtains are closed.</item>
+		<item>It\'s a break room&#8230; Nobody has been in here for years.</item>
+	</string-array>
+	
+
+</resources>
