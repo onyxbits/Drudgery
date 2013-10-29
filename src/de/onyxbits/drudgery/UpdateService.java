@@ -65,7 +65,6 @@ public class UpdateService extends Service {
 		int shift = prefs.getInt(MainActivity.SHIFT, MainActivity.DEF_SHIFT);
 		shiftPrefs = getSharedPreferences(MainActivity.getShiftPrefsFile(shift), 0);
 		timeUtil.update(shiftPrefs);
-		Log.d(getClass().getName(), "" + intent.getAction());
 		if (intent != null && ACTION_TOGGLE.equals(intent.getAction())) {
 			game.nextChoice = !game.nextChoice;
 		}
