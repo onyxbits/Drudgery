@@ -89,8 +89,13 @@
 		<item>You find some loose change!</item>
 		<item>You loot the fridge.</item>
 		<item>You found the stepladder!</item>
+		<item>You found the whistle!</item>
+		<item>You share \'Drudgery\' with a co-worker. Your co-worker is happy.</item>
 		<item>You claim this room in the name of Bob, the janitor.</item>
 		<item>You take a coffeebreak.</item>
+		<item>You feel safe here.</item>
+		<item>You feel at home here.</item>
+		<item>You notice some unused credit in the snack vending machine and spend it.</item>
 		<item>You pocket some office supplies.</item>
 		<item>You snatch the last \'application for leave\' form.</item>
 		<item>You have reached a save point.</item>
@@ -145,7 +150,11 @@
 		<item>Your boss makes you watch the paint dry.</item>
 		<item>Your boss gives you the evil eye.</item>
 		<item>Your boss yells at you.</item>
+		<item>Your boss laughs at you.</item>
 		<item>Your boss stares at you.</item>
+		<item>Your boss sneers at you.</item>
+		<item>Your boss sneezes at you.</item>
+		<item>Your boss tells you that Friday is now pink-pants day.</item>
 		<item>Your boss has a new pet aligator.</item>
 		<item>Your boss asks you for the quarterly report. Your dog ate it.</item>
 		<item>Your boss uses \'Yell\' on you&#8230; It\'s super effective!</item>
@@ -170,12 +179,16 @@
 		<item>A ladder leads down through an open hatch.</item>
 		<item>The telephone rings.</item>
 		<item>The telephone is silent.</item>
+		<item>Someone put a potted plant under a leaky waterpipe.</item>
+		<item>Everything in this room is a uniform shade of pale pink. There is also a bored horse here.</item>
 		<item>The fax machine is out of paper.</item>
+		<item>The ingrain wallpaper suspiciously looks like braille.</item>
 		<item>The walls look organic.</item>
 		<item>A file labeled \'My nude pics\' lies on the desk.</item>
 		<item>The sink\'s faucet is dripping cheerfully.</item>
 		<item>It is raining outside.</item>
 		<item>The lightswitch is broken.</item>
+		<item>The light flickers.</item>
 		<item>The doorknob broke off.</item>
 		<item>A coffin stands in the corner.</item>
 		<item>A thick layer of dust covers everything.</item>
