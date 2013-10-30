@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.provider.AlarmClock;
 import android.app.AlertDialog;
 import android.app.TimePickerDialog;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -17,7 +16,6 @@ import android.content.res.Resources;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -109,7 +107,6 @@ public class MainActivity extends FragmentActivity implements
 			getPackageManager().getPackageInfo("com.google.zxing.client.android",0);
 		}
 		catch (Exception exp) {
-			Log.w("fsdaf",exp);
 			menu.getItem(2).setVisible(false);
 			menu.getItem(2).setEnabled(false);
 		}
