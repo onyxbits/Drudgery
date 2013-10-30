@@ -233,6 +233,7 @@
 		<item>This room has the most marvelous view, but the curtains are closed.</item>
 		<item>It\'s a break room&#8230; Nobody has been in here for years.</item>
 	</string-array>
+		<string name="share">Share</string>
 	
 
 </resources>
