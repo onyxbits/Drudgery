@@ -9,10 +9,11 @@ import com.google.android.apps.dashclock.api.ExtensionData;
 /**
  * Ties Drudgery into the Dashclock widget. This is as primitive as it can get.
  * Whenever drudgery is added to the dashclock, this class will start the
- * updateservice, the updateservice in turn periodically sends us an intent
- * with a ready to publish title and body.
+ * updateservice, the updateservice in turn periodically sends us an intent with
+ * a ready to publish title and body.
+ * 
  * @author patrick
- *
+ * 
  */
 public class DashclockExtensionService extends DashClockExtension {
 
@@ -26,9 +27,12 @@ public class DashclockExtensionService extends DashClockExtension {
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		String title = intent.getStringExtra(DASH_TITLE);
 		String body = intent.getStringExtra(DASH_BODY);
-		publishUpdate(new ExtensionData().visible(true)
-				.icon(R.drawable.ic_extension).status(title).expandedTitle(title)
-				.expandedBody(body).clickIntent(new Intent(this, ProxyActivity.class)));
+		if (title != null && body != null) {
+			publishUpdate(new ExtensionData().visible(true)
+					.icon(R.drawable.ic_extension).status(title).expandedTitle(title)
+					.expandedBody(body)
+					.clickIntent(new Intent(this, ProxyActivity.class)));
+		}
 		return START_NOT_STICKY;
 	}
 
