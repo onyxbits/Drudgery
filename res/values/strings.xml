@@ -131,6 +131,7 @@
 		<item>Your boss signs you up for the policeball.</item>
 		<item>Your boss asks you to work overtime.</item>
 		<item>Your boss reads you Vogon poetry.</item>
+		<item>Your boss asks you for the latest report from R&amp;D. You don\'t have it.</item>
 		<item>Your boss puts an apple on your head.</item>
 		<item>Your boss beats you at rock-scissors-paper.</item>
 		<item>Your boss makes you sit through a presentation.</item>
@@ -144,6 +145,10 @@
 		<item>Your boss gives you a performance review.</item>
 		<item>Your boss makes you a ham and avocado cheese sandwich.</item>
 		<item>Your boss makes you eat your spinach.</item>
+		<item>Your boss grunts at you.</item>
+		<item>Your boss barks at you.</item>
+		<item>Your boss is wearing aligator boots. That usually spells trouble.</item>
+		<item>Your boss asks you to sign a NDA - in blood.</item>
 		<item>Your boss makes you memorize the yellow pages.</item>
 		<item>Your boss orders a full body cavity search on you.</item>
 		<item>Your boss decides that you are in need of a new haircut.</item>
@@ -164,7 +169,15 @@
 	<string-array name="normalevents">
 		<item>The parking lot can be seen through the window.</item>
 		<item>Someone forgot to flush the toilet.</item>
+		<item>This room is fireproof.</item>
+		<item>This is a storeroom, but it contains nothing of interest.</item>
+		<item>There is a small puddle of a sticky, reddish liquid on the floor.</item>
+		<item>Someone microwaved a toner cartridge. The results are not pretty.</item>
+		<item>This office is a remnant from the 1950\'s. It\'s still in black and white.</item>
+		<item>A large mahogany desk sits in this room.</item>
+		<item>The picture frame on the desk contains the photography of a particularly ugly wife.</item>
 		<item>Someone opened a portal to Dimension X, again!</item>
+		<item>This room hosts the company\'s petting zoo. All animals are stuffed.</item>
 		<item>A piranha swims in the watercooler.</item>
 		<item>Low moaning comes out of the closet.</item>
 		<item>Someone forgot their lunchbox here&#8230; three months ago!</item>
@@ -178,6 +191,7 @@
 		<item>A huge pile of dirty cups and dishes sits in the sink.</item>
 		<item>A ladder leads down through an open hatch.</item>
 		<item>The telephone rings.</item>
+		<item>An old dot matrix printer happily produces an endless stream of ASCII art images.</item>
 		<item>The telephone is silent.</item>
 		<item>Someone put a potted plant under a leaky waterpipe.</item>
 		<item>Everything in this room is a uniform shade of pale pink. There is also a bored horse here.</item>
