@@ -27,11 +27,15 @@ public class DashclockExtensionService extends DashClockExtension {
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		String title = intent.getStringExtra(DASH_TITLE);
 		String body = intent.getStringExtra(DASH_BODY);
-		if (title != null && body != null) {
+		try {
 			publishUpdate(new ExtensionData().visible(true)
 					.icon(R.drawable.ic_extension).status(title).expandedTitle(title)
 					.expandedBody(body)
 					.clickIntent(new Intent(this, ProxyActivity.class)));
+		}
+		catch (Exception exp) {
+			// This can happen if the UpdateService is running, Dashclock is
+			// installed, but the widget is not added to Dashclock.
 		}
 		return START_NOT_STICKY;
 	}
